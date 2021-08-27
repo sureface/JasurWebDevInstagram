@@ -22,8 +22,9 @@ img
     max-width: 100%;
 }
 .invalid{
-    color: red;
-    font-weight: 500;
+    color: #ed4956;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 a
@@ -302,6 +303,8 @@ footer .container
     margin-bottom: 0;
     margin-top: 5px;
 }
+
+
 
 .footer-nav ul li
 {
