@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import axios from "axios";
-import images from "./image/image-1.jpg"
 import Carusel from "./componets/carusel";
 
 function App() {
@@ -77,7 +76,7 @@ function App() {
         <footer>
           <div className="container">
             <nav className="footer-nav">
-              <ul className="ul-1">
+              <ul>
                 <li><a className="footerLink" href="#">About Us</a></li>
                 <li><a className="footerLink" href="#">Support</a></li>
                 <li><a className="footerLink" href="#">Jobs</a></li>

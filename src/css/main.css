@@ -303,19 +303,15 @@ footer .container
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    margin-bottom: 0;
+    margin-top: 5px;
 }
 
 .footer-nav ul li
 {
     margin-right: 1.6rem;
 }
-ul{
-    height: 20px;
-}
 
-.ul-1{
-    margin-bottom: 10px;
-}
 .ul-2{
     margin-bottom: 10px;
 }
@@ -328,6 +324,7 @@ ul{
     line-height: 14px;
     font-weight: 400;
     opacity: 0.7;
+    flex-wrap: wrap;
 }
 
 .copyright-notice
@@ -386,6 +383,12 @@ ul{
     }
 }
 
+@media (max-width: 755px){
+    .phone{
+        display: none;
+    }
+}
+
 @media (max-width: 450px)
 {
     #wrapper
@@ -398,11 +401,14 @@ ul{
         border: none;
         padding: 0 2rem;
     }
+    .facebook-login{
+        margin-bottom: 1.5rem;
+    }
     .sign-up
     {
         background-color: transparent;
         border: none;
-        margin: 4rem 0;
+        margin: 0;
     }
     footer
     {
