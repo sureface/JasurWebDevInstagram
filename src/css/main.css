@@ -1,7 +1,6 @@
 /*importing Google font*/
 @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
 
-/*Html rakup styling*/
 *,
 *::before,
 *::after{
@@ -16,7 +15,6 @@ html
     box-sizing: border-box;
 }
 
-/*Smartphone image*/
 img
 {
     width: 100%;
@@ -28,26 +26,22 @@ img
     font-weight: 500;
 }
 
-/*link styling*/
 a
 {
     text-decoration: none;
 }
 
-/*Logo styling*/
 h1
 {
     font-family: 'Pacifico', cursive;
     font-size: 40px;
 }
 
-/*body background color*/
 body
 {
     background-color: #fafafa;
 }
 
-/*Wrapper is like a container of body*/
 #wrapper
 {
     width: 100%;
@@ -73,11 +67,6 @@ body
     display: flex;
     padding: 0 8rem;
 }
-
-/*smartphone image*/
-
-
-/*form styling*/
 .form-data
 {
     width: 100%;
@@ -95,7 +84,6 @@ body
     text-align: center;
 }
 
-/*logo again styling*/
 .heading{
     margin: 22px auto 30px;
     background-image: url("https://www.instagram.com/static/bundles/es6/sprite_core_b20f2a3cd7e4.png/b20f2a3cd7e4.png");
@@ -105,7 +93,6 @@ body
     overflow: hidden;
 }
 
-/*form input styling*/
 .form-data form input
 {
     padding: .8rem;
@@ -127,7 +114,6 @@ body
     cursor: pointer;
 }
 
-/*OR font styling*/
 .has-separator
 {
     color: #999999;
@@ -162,7 +148,6 @@ body
     right: 0;
 }
 
-/*FACEBOOK ligin text styling*/
 .facebook-login
 {
     font-size: 1.4rem;
@@ -186,7 +171,6 @@ body
     margin-right: .7rem;
 }
 
-/*password reset styling*/
 .password-reset
 {
     color: #00376b;
@@ -197,7 +181,6 @@ body
     font-family: sans-serif;
 }
 
-/*signup text styling*/
 .sign-up
 {
     text-align: center;
@@ -242,7 +225,6 @@ body
     margin-right: -15px;
 }
 
-/*Play stor and App store image styling*/
 .get-the-app
 {
     font-size: 1.4rem;
@@ -278,7 +260,6 @@ body
     margin-right: 1rem;
 }
 
-/*Footer link styling*/
 footer
 {
     padding: 5rem 0;
@@ -349,7 +330,6 @@ footer .container
     width: 53%;
 }
 
-/*responsive styling*/
 @media (max-width: 900px)
 {
     .phone-app-demo{
