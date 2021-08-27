@@ -60,7 +60,7 @@ function App() {
               Don't an account? <a href="#">Sign up</a>
             </div>
             <div className="get-the-app">
-              <span>Get the app.</span>
+              <div className="spanchik">Get the app.</div>
               <div className="badge">
                 <img
                     src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png"
