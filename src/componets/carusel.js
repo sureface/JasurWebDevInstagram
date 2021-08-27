@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import {
     Carousel,
     CarouselItem,
-    CarouselControl,
     CarouselIndicators
 } from 'reactstrap';
 
@@ -65,7 +64,9 @@ const Example = (props) => {
             previous={previous}
             className="caruselBox"
         >
+
             <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
+
             {slides}
         </Carousel>
     );
